@@ -1,0 +1,24 @@
+.container__big-card {
+  position: relative;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.text__big-card {
+  position: absolute;
+  bottom: 8px;
+  padding-left: 5px;
+  width: 1000px;
+}
+
+.buttons__big-card {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons__big-card > button {
+  border-radius: 10px;
+  padding: 2px;
+  margin-right: 10px;
+}
