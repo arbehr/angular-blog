@@ -2,7 +2,7 @@
   <img src="{{ pothoCover }}" alt="" width="320" height="400">
   <div class="text__small-card">
     <p>{{ cardAuthorship }}</p>
-    <h2>{{ cardTitle }}</h2>
+    <h2><a [routerLink]="['content', id]">{{ cardTitle }}</a></h2>
     <p>{{ cardDescription }}</p>
     <div class="buttons__small-card">
       <button>Design</button>
